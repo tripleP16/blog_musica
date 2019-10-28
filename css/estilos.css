@@ -1,37 +1,51 @@
-#barra{
-  background-color: #061247;
-  min-height: 8rem;
-}
-
-#logo_sitio{
-  height: 8rem;
-  margin-left: 2.5%;
-  margin-top: 0.5%;
-}
-
-#barraNavegacion{
-  background-color: #B2C100;
-}
-.navbar-brand{
-  color: white;
-}
-
-#principal{
-  background-color: #B2C100;
-  min-height: 50rem;
-}
 body{
-  background-color: #000000;
-  color: white;
+  background-color: #BFF9FC ;
 }
 
-#cajaComentar{
-  padding: 5%;
-}
-#beatles{
+.barraDeNavegacion{
+  background-color: #0A4B7E  ;
   width: 100%;
 }
 
+.barraDeNavegacion a{
+  color: white;
+
+}
+
+.barraDeNavegacion a:hover{
+  color: black;
+
+}
+
+#barra{
+  background-color: #000C72;
+  width: 100%;
+  margin-top: 0px;
+}
+
+#logo{
+  max-height: 10rem;
+}
+
+#prueba{
+  min-height: 50rem;
+  background-color: #68ABDF ;
+}
+
+#prueba2{
+  min-height: 35rem; 
+  background-color: #08C5CE;
+}
+
+#prueba3{
+  min-height: 35rem;
+  background-color: #68ABDF ;
+}
+
 #foto_perfil{
-  width: 120px;
+  width: 90px;
+}
+
+.foto{
+  width: 100%;
 }
