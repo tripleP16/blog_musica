@@ -24,6 +24,9 @@
     .contenedor{
         text-align: center;
     }
+    .usuario {
+        font-size: 46px;
+    }
 }
 
 .iconos {
@@ -41,4 +44,18 @@
 
 .cajaTopicos{
     text-align: center;
+}
+
+#articulo1 {
+    
+    padding:6%;
+}
+
+#beatles{
+    width: 100%;
+}
+
+.usuario {
+    font-size: 66px;
+    color: #66b387;
 }
