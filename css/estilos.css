@@ -38,17 +38,19 @@
     width:50px;
 }
 
-.cajaArticulos {
-    background-color: #C0D5C3;
-}
 
 .cajaTopicos{
     text-align: center;
 }
 
 #articulo1 {
-    
-    padding:6%;
+    background-color: #C0D5C3;
+    padding: 5%;
+}
+
+#articulo2 {
+    background-color: #C0D5C3;
+    padding: 5%;
 }
 
 #beatles{
@@ -59,3 +61,8 @@
     font-size: 66px;
     color: #66b387;
 }
+
+#ss{
+    width:100%;
+}
+
