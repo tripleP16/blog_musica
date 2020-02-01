@@ -1,51 +1,44 @@
-body{
-  background-color: #BFF9FC ;
+﻿body {
+    background: rgba(102,179,135,1);
+    background: -moz-linear-gradient(left, rgba(102,179,135,1) 0%, rgba(185,220,200,1) 49%, rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(102,179,135,1)), color-stop(49%, rgba(185,220,200,1)), color-stop(90%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(left, rgba(102,179,135,1) 0%, rgba(185,220,200,1) 49%, rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(left, rgba(102,179,135,1) 0%, rgba(185,220,200,1) 49%, rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(left, rgba(102,179,135,1) 0%, rgba(185,220,200,1) 49%, rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to right, rgba(102,179,135,1) 0%, rgba(185,220,200,1) 49%, rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66b387', endColorstr='#ffffff', GradientType=1 );
 }
 
-.barraDeNavegacion{
-  background-color: #0A4B7E  ;
-  width: 100%;
+
+#barra {
+    background-color: #000000;
 }
 
-.barraDeNavegacion a{
-  color: white;
-
+.opcion{
+    color: white;
+}
+.opcion:hover {
+    color: #66b387;
+}
+@media (max-width:768px) {
+    .contenedor{
+        text-align: center;
+    }
 }
 
-.barraDeNavegacion a:hover{
-  color: black;
-
-}
-
-#barra{
-  background-color: #000C72;
-  width: 100%;
-  margin-top: 0px;
+.iconos {
+    font-size: 34px;
+    color: #66b387;
 }
 
 #logo{
-  max-height: 10rem;
+    width:50px;
 }
 
-#prueba{
-  min-height: 50rem;
-  background-color: #68ABDF ;
+.cajaArticulos {
+    background-color: #C0D5C3;
 }
 
-#prueba2{
-  min-height: 35rem; 
-  background-color: #08C5CE;
-}
-
-#prueba3{
-  min-height: 35rem;
-  background-color: #68ABDF ;
-}
-
-#foto_perfil{
-  width: 90px;
-}
-
-.foto{
-  width: 100%;
+.cajaTopicos{
+    text-align: center;
 }
